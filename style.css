@@ -27,6 +27,10 @@ nav ul{
     justify-content: space-between;
     align-items: center;
 }
+
+header{
+    text-align: center;
+}
 nav .logo{
     width: 200px
 }
@@ -72,6 +76,7 @@ nav .logo{
 .skills{
     position: absolute;
     z-index: -1;
+    opacity: .3;
 }
 .pen{
     top:10%;
@@ -86,7 +91,7 @@ nav .logo{
     height: 234.18px;
 }
 .php{
-    left:-10px;
+    left:200px;
     bottom: 0;
     width: 200px;
     height: 200px;
@@ -303,6 +308,10 @@ footer{
     .about_text, .about_skills, .exp_text{
         width: 100%;
     }
+    .about_experience{
+        overflow: hidden;
+    }
+
 .pen{
     top:10%;
     left:50px;
@@ -344,6 +353,7 @@ footer{
     bottom: 0%;
     width: 100px;
     height: 100px;
+    display:none;
 }
 .contact{
     flex-direction: row;
