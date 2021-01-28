@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color:#1A0F17 ;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -406,16 +408,16 @@ footer{
 
 .projects_cards{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: .9fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 0;
     color: white;
 }
 .projects_card{
     padding: 20px;
     background-color: #3939393d;
     box-shadow: 2px 3px 10px #3e3e3e;
-    margin: 50px;
+    margin: 20px;
 }
 .projects_card1{
     grid-column: 1/2;
