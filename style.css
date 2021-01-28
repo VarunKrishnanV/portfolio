@@ -18,7 +18,7 @@ header{
 nav{
     height: 10vh;
     padding: 10px;
-    margin: 10px 20px;
+    margin: ;
 }
 
 nav ul{
@@ -281,6 +281,15 @@ footer{
 @media only screen and (max-width:720px){
     .logo{
         width: 100px;
+        margin-bottom: 20px;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .brief_intro h1{
         font-size: 60px;
